@@ -1,0 +1,351 @@
+<meta http-equiv='Content-Type' content='application/vnd.ms-excel; charset=utf-8'/>
+<!-- 1,3 유형별 -->
+
+<!-- 1,4 유형별 -->
+
+<!-- 2,1 -->
+
+
+
+<!-- 2,2 -->
+
+<!-- 2,3 -->
+
+
+<!-- 1,3 유형별 -->
+
+<!-- 2,4 -->
+
+
+
+<table width="100%" cellspacing="0" cellpadding="0" >
+
+	  		 <tr>
+			  <td align="right">
+					<table width="100%" cellspacing="0" border="1" >
+					<thead>
+				<tr>
+
+					 <th rowspan="2">지역</th>
+					<th colspan="2"> 2023</th>
+					</tr>
+				<tr>
+					<th>개수(EA)</th>
+					 <th>무게(㎏)</th>
+					 </tr>
+
+					</thead>
+
+					    <tbody>
+					 <tr>
+				           <td>강화여차리</td>
+				      <td style='text-align:right;'>511.0</td>
+					  <td style='text-align:right;'>25.1</td>
+					  </tr>
+					<tr>
+				           <td>안산말부흥</td>
+				      <td style='text-align:right;'>50.0</td>
+					  <td style='text-align:right;'>0.5</td>
+					  </tr>
+					<tr>
+				           <td>태안백리포</td>
+				      <td style='text-align:right;'>1359.0</td>
+					  <td style='text-align:right;'>49.8</td>
+					  </tr>
+					<tr>
+				           <td>보령석대도</td>
+				      <td style='text-align:right;'>138.0</td>
+					  <td style='text-align:right;'>50.1</td>
+					  </tr>
+					<tr>
+				           <td>부안변산</td>
+				      <td style='text-align:right;'>97.0</td>
+					  <td style='text-align:right;'>39.0</td>
+					  </tr>
+					<tr>
+				           <td>신안임자도</td>
+				      <td style='text-align:right;'>119.0</td>
+					  <td style='text-align:right;'>7.1</td>
+					  </tr>
+					<tr>
+				           <td>진도하조도</td>
+				      <td style='text-align:right;'>309.0</td>
+					  <td style='text-align:right;'>24.9</td>
+					  </tr>
+					<tr>
+				           <td>해남묵동리</td>
+				      <td style='text-align:right;'>221.0</td>
+					  <td style='text-align:right;'>15.4</td>
+					  </tr>
+					<tr>
+				           <td>고흥신흥</td>
+				      <td style='text-align:right;'>452.0</td>
+					  <td style='text-align:right;'>23.2</td>
+					  </tr>
+					<tr>
+				           <td>여수반월</td>
+				      <td style='text-align:right;'>246.0</td>
+					  <td style='text-align:right;'>6.8</td>
+					  </tr>
+					<tr>
+				           <td>사천아두도</td>
+				      <td style='text-align:right;'>325.0</td>
+					  <td style='text-align:right;'>28.3</td>
+					  </tr>
+					<tr>
+				           <td>통영망일봉</td>
+				      <td style='text-align:right;'>1215.0</td>
+					  <td style='text-align:right;'>16.0</td>
+					  </tr>
+					<tr>
+				           <td>마산봉암</td>
+				      <td style='text-align:right;'>965.0</td>
+					  <td style='text-align:right;'>19.6</td>
+					  </tr>
+					<tr>
+				           <td>부산해양대</td>
+				      <td style='text-align:right;'>800.0</td>
+					  <td style='text-align:right;'>22.9</td>
+					  </tr>
+					<tr>
+				           <td>울산대왕암</td>
+				      <td style='text-align:right;'>2280.0</td>
+					  <td style='text-align:right;'>27.7</td>
+					  </tr>
+					<tr>
+				           <td>포항칠포</td>
+				      <td style='text-align:right;'>1937.0</td>
+					  <td style='text-align:right;'>75.8</td>
+					  </tr>
+					<tr>
+				           <td>울진후정</td>
+				      <td style='text-align:right;'>395.0</td>
+					  <td style='text-align:right;'>4.9</td>
+					  </tr>
+					<tr>
+				           <td>강릉송정</td>
+				      <td style='text-align:right;'>350.0</td>
+					  <td style='text-align:right;'>4.9</td>
+					  </tr>
+					<tr>
+				           <td>속초청초</td>
+				      <td style='text-align:right;'>1725.0</td>
+					  <td style='text-align:right;'>13.5</td>
+					  </tr>
+					<tr>
+				           <td>인천백령도</td>
+				      <td style='text-align:right;'>812.0</td>
+					  <td style='text-align:right;'>78.0</td>
+					  </tr>
+					<tr>
+				           <td>인천영종도</td>
+				      <td style='text-align:right;'>74.0</td>
+					  <td style='text-align:right;'>1.0</td>
+					  </tr>
+					<tr>
+				           <td>인천영흥도</td>
+				      <td style='text-align:right;'>46.0</td>
+					  <td style='text-align:right;'>0.7</td>
+					  </tr>
+					<tr>
+				           <td>태안안면도</td>
+				      <td style='text-align:right;'>2502.0</td>
+					  <td style='text-align:right;'>60.0</td>
+					  </tr>
+					<tr>
+				           <td>서천다사항</td>
+				      <td style='text-align:right;'>131.0</td>
+					  <td style='text-align:right;'>56.1</td>
+					  </tr>
+					<tr>
+				           <td>고창동호</td>
+				      <td style='text-align:right;'>229.0</td>
+					  <td style='text-align:right;'>99.2</td>
+					  </tr>
+					<tr>
+				           <td>영광백바위</td>
+				      <td style='text-align:right;'>442.0</td>
+					  <td style='text-align:right;'>117.3</td>
+					  </tr>
+					<tr>
+				           <td>신안고장</td>
+				      <td style='text-align:right;'>971.0</td>
+					  <td style='text-align:right;'>20.0</td>
+					  </tr>
+					<tr>
+				           <td>해남예락</td>
+				      <td style='text-align:right;'>292.0</td>
+					  <td style='text-align:right;'>58.3</td>
+					  </tr>
+					<tr>
+				           <td>해남송평</td>
+				      <td style='text-align:right;'>327.0</td>
+					  <td style='text-align:right;'>71.9</td>
+					  </tr>
+					<tr>
+				           <td>제주김녕리</td>
+				      <td style='text-align:right;'>2494.0</td>
+					  <td style='text-align:right;'>137.6</td>
+					  </tr>
+					<tr>
+				           <td>완도신지도</td>
+				      <td style='text-align:right;'>743.0</td>
+					  <td style='text-align:right;'>42.5</td>
+					  </tr>
+					<tr>
+				           <td>여수백야도</td>
+				      <td style='text-align:right;'>525.0</td>
+					  <td style='text-align:right;'>11.6</td>
+					  </tr>
+					<tr>
+				           <td>고흥염포</td>
+				      <td style='text-align:right;'>435.0</td>
+					  <td style='text-align:right;'>18.3</td>
+					  </tr>
+					<tr>
+				           <td>남해유구</td>
+				      <td style='text-align:right;'>188.0</td>
+					  <td style='text-align:right;'>26.5</td>
+					  </tr>
+					<tr>
+				           <td>거제두모</td>
+				      <td style='text-align:right;'>3746.0</td>
+					  <td style='text-align:right;'>33.8</td>
+					  </tr>
+					<tr>
+				           <td>울주나사리</td>
+				      <td style='text-align:right;'>1158.0</td>
+					  <td style='text-align:right;'>46.0</td>
+					  </tr>
+					<tr>
+				           <td>동해노봉</td>
+				      <td style='text-align:right;'>823.0</td>
+					  <td style='text-align:right;'>18.3</td>
+					  </tr>
+					<tr>
+				           <td>영덕고래불</td>
+				      <td style='text-align:right;'>596.0</td>
+					  <td style='text-align:right;'>9.8</td>
+					  </tr>
+					<tr>
+				           <td>포항구룡포</td>
+				      <td style='text-align:right;'>4064.0</td>
+					  <td style='text-align:right;'>87.0</td>
+					  </tr>
+					<tr>
+				           <td>제주사계리</td>
+				      <td style='text-align:right;'>827.0</td>
+					  <td style='text-align:right;'>18.8</td>
+					  </tr>
+					<tr>
+				           <td>고성하일</td>
+				      <td style='text-align:right;'>1710.0</td>
+					  <td style='text-align:right;'>21.8</td>
+					  </tr>
+					<tr>
+				           <td>군산선유도</td>
+				      <td style='text-align:right;'>45.0</td>
+					  <td style='text-align:right;'>3.8</td>
+					  </tr>
+					<tr>
+				           <td>당진석문</td>
+				      <td style='text-align:right;'>159.0</td>
+					  <td style='text-align:right;'>1.8</td>
+					  </tr>
+					<tr>
+				           <td>보령삽시도</td>
+				      <td style='text-align:right;'>677.0</td>
+					  <td style='text-align:right;'>5.1</td>
+					  </tr>
+					<tr>
+				           <td>부산가덕도</td>
+				      <td style='text-align:right;'>3383.0</td>
+					  <td style='text-align:right;'>52.1</td>
+					  </tr>
+					<tr>
+				           <td>부산일광</td>
+				      <td style='text-align:right;'>2675.0</td>
+					  <td style='text-align:right;'>36.2</td>
+					  </tr>
+					<tr>
+				           <td>시흥정왕</td>
+				      <td style='text-align:right;'>790.0</td>
+					  <td style='text-align:right;'>4.8</td>
+					  </tr>
+					<tr>
+				           <td>신안압해도</td>
+				      <td style='text-align:right;'>1157.0</td>
+					  <td style='text-align:right;'>98.9</td>
+					  </tr>
+					<tr>
+				           <td>신안우이도</td>
+				      <td style='text-align:right;'>3497.0</td>
+					  <td style='text-align:right;'>1238.0</td>
+					  </tr>
+					<tr>
+				           <td>신안흑산도</td>
+				      <td style='text-align:right;'>2733.0</td>
+					  <td style='text-align:right;'>219.8</td>
+					  </tr>
+					<tr>
+				           <td>여수거문도</td>
+				      <td style='text-align:right;'>4207.0</td>
+					  <td style='text-align:right;'>74.4</td>
+					  </tr>
+					<tr>
+				           <td>여수안도</td>
+				      <td style='text-align:right;'>11420.0</td>
+					  <td style='text-align:right;'>253.5</td>
+					  </tr>
+					<tr>
+				           <td>완도보길도</td>
+				      <td style='text-align:right;'>1693.0</td>
+					  <td style='text-align:right;'>38.4</td>
+					  </tr>
+					<tr>
+				           <td>완도평일도</td>
+				      <td style='text-align:right;'>806.0</td>
+					  <td style='text-align:right;'>85.0</td>
+					  </tr>
+					<tr>
+				           <td>울릉현포</td>
+				      <td style='text-align:right;'>2287.0</td>
+					  <td style='text-align:right;'>250.5</td>
+					  </tr>
+					<tr>
+				           <td>울산주전</td>
+				      <td style='text-align:right;'>1380.0</td>
+					  <td style='text-align:right;'>13.6</td>
+					  </tr>
+					<tr>
+				           <td>제주위미</td>
+				      <td style='text-align:right;'>902.0</td>
+					  <td style='text-align:right;'>14.8</td>
+					  </tr>
+					<tr>
+				           <td>진도가사도</td>
+				      <td style='text-align:right;'>1349.0</td>
+					  <td style='text-align:right;'>225.0</td>
+					  </tr>
+					<tr>
+				           <td>통영욕지도</td>
+				      <td style='text-align:right;'>2563.0</td>
+					  <td style='text-align:right;'>47.9</td>
+					  </tr>
+					<tr>
+				           <td>화성서신</td>
+				      <td style='text-align:right;'>124.0</td>
+					  <td style='text-align:right;'>1.5</td>
+					  </tr>
+					<tr>
+				           <td>합계</td>
+				      <td style='text-align:right;'>78476.0</td>
+					  <td style='text-align:right;'>4155.1</td>
+					  </tr>
+					</tbody>
+					</table>
+		  	</td>
+	   </tr>
+	 </table>
+
+ </html>
