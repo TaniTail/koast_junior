@@ -1,0 +1,65 @@
+FROM python:3.12-slim
+
+# NVIDIA CUDA repository 추가
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gnupg2 \
+    curl \
+    ca-certificates \
+    # soundfile 라이브러리에 필요한 의존성 추가
+    libsndfile1 \
+    # faster-whisper에 필요한 의존성 추가
+    build-essential \
+    pkg-config \
+    && curl -fsSL https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.0-1_all.deb -O && \
+    dpkg -i cuda-keyring_1.0-1_all.deb && \
+    apt-get update && \
+    apt-get install -y --no-install-recommends \
+    cuda-runtime-12-1 \
+    ffmpeg \
+    && rm -rf /var/lib/apt/lists/* \
+    && rm cuda-keyring_1.0-1_all.deb
+
+WORKDIR /app
+
+# web 디렉토리의 필요한 파일들 복사
+COPY requirements.txt .
+COPY server.py .
+COPY .env .
+
+# 환경 변수 파일에서 포트 로드를 위한 ARG 설정
+ARG IN_WS_PORT
+ENV IN_WS_PORT=${IN_WS_PORT}
+
+# CUDA 환경 설정
+ENV CUDA_HOME=/usr/local/cuda
+ENV PATH=${CUDA_HOME}/bin:${PATH}
+ENV LD_LIBRARY_PATH=${CUDA_HOME}/lib64:${LD_LIBRARY_PATH}
+ENV PYTHONUNBUFFERED=1
+
+# PyTorch 설치 (CUDA 12.1 버전)
+RUN pip3 install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# 필수 AI/ML 패키지 설치
+RUN pip install --no-cache-dir \
+    faster-whisper \
+    noisereduce \
+    langchain-ollama \
+    soundfile \
+    coloredlogs \
+    huggingface-hub \
+    ctranslate2 \
+    tokenizers \
+    onnxruntime-gpu
+
+# 나머지 패키지 설치
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 환경 변수로 설정된 포트 EXPOSE
+EXPOSE ${IN_WS_PORT}
+
+# 필요한 디렉토리 생성
+RUN mkdir -p /app/logs /app/cert /app/models && \
+    chmod 755 /app/logs /app/cert /app/models
+
+# 서버 실행
+CMD ["python", "server.py"]

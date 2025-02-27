@@ -1,0 +1,81 @@
+version: '3'
+
+services:
+  websocket:
+    build:
+      context: .
+      dockerfile: Dockerfile.websocket
+      args:
+        - IN_WS_PORT=${IN_WS_PORT}
+    container_name: stt-websocket
+    ports:
+      - "${WS_PORT}:${IN_WS_PORT}"
+    networks:
+      - stt-network
+    environment:
+      - WS_HOST=${WS_HOST}
+      - WS_PORT=${WS_PORT}
+      - IN_WS_PORT=${IN_WS_PORT}
+      - EXT_WS_PORT=${EXT_WS_PORT}
+      - WHISPER_MODEL_PATH=/app/models
+    volumes:
+      - ./cert:/app/cert:ro
+      - ./logs:/app/logs
+      - /home/koastaisar/AI/stt/whisper:/app/models
+    user: "${UID}:${GID}"
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    restart: always
+
+  flask:
+    build:
+      context: .
+      dockerfile: Dockerfile.flask
+    container_name: stt-flask
+    ports:
+      - "5005:5005"
+    networks:
+      - stt-network
+    environment:
+      - FLASK_HOST=${FLASK_HOST}
+      - FLASK_PORT=${FLASK_PORT}
+      - WS_PORT=${WS_PORT}
+      - IN_WS_PORT=${IN_WS_PORT}
+      - EXT_WS_PORT=${EXT_WS_PORT}
+    volumes:
+      - ./cert:/app/cert
+      - ./logs:/app/logs
+      - ./templates:/app/templates
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G
+    depends_on:
+      - websocket
+    restart: always
+
+networks:
+  stt-network:
+    driver: bridge
+
+volumes:
+  cert:
+  logs:
